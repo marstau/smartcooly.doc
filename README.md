@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://webdocument.marstau.com/">
+  <a href="http://smartcooly.marstau.com/">
     <img src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width=72 height=72>
   </a>
 
@@ -8,7 +8,7 @@
   <p align="center">
     Sleek, intuitive, and powerful front-end framework for faster and easier web development.
     <br>
-    <a href="http://webdocument.marstau.com/docs/1.0"><strong>Explore WebDocument docs »</strong></a>
+    <a href="http://smartcooly.marstau.com/docs/1.0"><strong>Explore WebDocument docs »</strong></a>
     <br>
     <br>
     <a href="https://github.com/marstau/WebDocument/issues/new?template=bug.md">Report bug</a>
@@ -45,7 +45,7 @@ Learn more about using Jekyll by reading its [documentation](https://jekyllrb.co
 ## Modify to yourself project document
 
 1. Replace `docs/1.0` text to your version name in global, `docs/1.0` for example, and then modify directory name `docs/1.0`.
-2. Replace `webdocument.marstau.com` text to your website `doc.abc.com` in global.
+2. Replace `smartcooly.marstau.com` text to your website `doc.abc.com` in global.
 3. Replace `marstau/WebDocument` to your project name `yourname/yourPojectDocName` in global.
 4. Replace `WebDocument` to your project name `yourPojectDocName ` in global.
 
@@ -72,4 +72,4 @@ Code and documentation copyright 2011-2018 [Bootstrap Authors](https://github.co
 * <https://github.com/twbs/bootstrap>
 
 
-## [Denote](http://webdocument.marstau.com/docs/1.0/about/denote/)
+## [Denote](http://smartcooly.marstau.com/docs/1.0/about/denote/)

@@ -7,11 +7,11 @@
     <authors>The Bootstrap Authors, Twitter Inc.</authors>
     <owners>bootstrap</owners>
     <description>The most popular front-end framework for developing responsive, mobile first projects on the web.</description>
-    <releaseNotes>https://blog.webdocument.marstau.com/</releaseNotes>
+    <releaseNotes>https://blog.smartcooly.marstau.com/</releaseNotes>
     <summary>Bootstrap framework in Sass. Includes fonts and JavaScript</summary>
     <language>en-us</language>
-    <projectUrl>https://webdocument.marstau.com/</projectUrl>
-    <iconUrl>https://webdocument.marstau.com/assets/img/favicons/apple-touch-icon.png</iconUrl>
+    <projectUrl>https://smartcooly.marstau.com/</projectUrl>
+    <iconUrl>https://smartcooly.marstau.com/assets/img/favicons/apple-touch-icon.png</iconUrl>
     <licenseUrl>https://github.com/marstau/WebDocument/blob/master/LICENSE</licenseUrl>
     <copyright>Copyright 2017-2018</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
