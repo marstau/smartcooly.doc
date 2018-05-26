@@ -5,7 +5,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.1.1): alert.js
- * Licensed under MIT (https://github.com/marstau/WebDocument/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/marstau/smartcooly.doc/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 var Alert = function ($) {

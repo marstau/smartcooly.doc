@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.1.1): index.js
- * Licensed under MIT (https://github.com/marstau/WebDocument/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/marstau/smartcooly.doc/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 (function ($) {
