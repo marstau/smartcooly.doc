@@ -12,7 +12,7 @@
     "web"
   ],
   "homepage": "https://smartcooly.marstau.com/",
-  "author": "The Bootstrap Authors (https://github.com/marstau/WebDocument/graphs/contributors)",
+  "author": "The Bootstrap Authors (https://github.com/marstau/smartcooly.doc/graphs/contributors)",
   "contributors": [
     "Twitter, Inc."
   ],
@@ -77,10 +77,10 @@
   "main": "dist/js/bootstrap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marstau/WebDocument.git"
+    "url": "git+https://github.com/marstau/smartcooly.doc.git"
   },
   "bugs": {
-    "url": "https://github.com/marstau/WebDocument/issues"
+    "url": "https://github.com/marstau/smartcooly.doc/issues"
   },
   "license": "MIT",
   "dependencies": {},

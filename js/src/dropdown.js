@@ -5,7 +5,7 @@ import Util from './util'
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.1.1): dropdown.js
- * Licensed under MIT (https://github.com/marstau/WebDocument/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/marstau/smartcooly.doc/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -170,7 +170,7 @@ const Dropdown = (($) => {
 
         // If boundary is not `scrollParent`, then set position to `static`
         // to allow the menu to "escape" the scroll parent's boundaries
-        // https://github.com/marstau/WebDocument/issues/24251
+        // https://github.com/marstau/smartcooly.doc/issues/24251
         if (this._config.boundary !== 'scrollParent') {
           $(parent).addClass(ClassName.POSITION_STATIC)
         }

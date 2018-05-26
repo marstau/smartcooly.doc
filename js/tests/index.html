@@ -55,7 +55,7 @@
         'contextmenu'
       ].forEach(function(eventAlias) {
         $.fn[eventAlias] = function() {
-          throw new Error('Using the ".' + eventAlias + '()" method is not allowed, so that Bootstrap can be compatible with custom jQuery builds which exclude the "event aliases" module that defines said method. See https://github.com/marstau/WebDocument/blob/master/CONTRIBUTING.md#js')
+          throw new Error('Using the ".' + eventAlias + '()" method is not allowed, so that Bootstrap can be compatible with custom jQuery builds which exclude the "event aliases" module that defines said method. See https://github.com/marstau/smartcooly.doc/blob/master/CONTRIBUTING.md#js')
         }
       })
 
@@ -93,7 +93,7 @@
       })
 
       // Display fixture on-screen on iOS to avoid false positives
-      // See https://github.com/marstau/WebDocument/pull/15955
+      // See https://github.com/marstau/smartcooly.doc/pull/15955
       if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
         QUnit.begin(function() {
           $('#qunit-fixture').css({ top: 0, left: 0 })

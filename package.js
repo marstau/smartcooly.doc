@@ -3,10 +3,10 @@
 /* eslint-env meteor */
 
 Package.describe({
-  name: 'twbs:bootstrap',  // https://atmospherejs.com/marstau/WebDocument
+  name: 'twbs:bootstrap',  // https://atmospherejs.com/marstau/smartcooly.doc
   summary: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
   version: '4.1.1',
-  git: 'https://github.com/marstau/WebDocument.git'
+  git: 'https://github.com/marstau/smartcooly.doc.git'
 });
 
 Package.onUse(function (api) {

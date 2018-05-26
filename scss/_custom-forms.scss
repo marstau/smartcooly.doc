@@ -189,7 +189,7 @@
       // suppress the default white text on blue background highlight given to
       // the selected option text when the (still closed) <select> receives focus
       // in IE and (under certain conditions) Edge.
-      // See https://github.com/marstau/WebDocument/issues/19398.
+      // See https://github.com/marstau/smartcooly.doc/issues/19398.
       color: $input-color;
       background-color: $input-bg;
     }

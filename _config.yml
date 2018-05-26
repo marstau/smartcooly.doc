@@ -54,7 +54,7 @@ social_logo_path:   /assets/brand/bootstrap-social-logo.png
 current_version:      4.1.1
 current_ruby_version: 4.1.1
 docs_version:         1.0
-repo:                 "https://github.com/marstau/WebDocument"
+repo:                 "https://github.com/marstau/smartcooly.doc"
 slack:                "https://bootstrap-slack.herokuapp.com"
 blog:                 "https://blog.marstau.com"
 expo:                 "https://expo.marstau.com"
@@ -62,8 +62,8 @@ jobs:                 "https://jobs.marstau.com"
 themes:               "https://themes.marstau.com"
 
 download:
-  source:           "https://github.com/marstau/WebDocument/archive/v4.1.1.zip"
-  dist:             "https://github.com/marstau/WebDocument/releases/download/v4.1.1/bootstrap-4.1.1-dist.zip"
+  source:           "https://github.com/marstau/smartcooly.doc/archive/v4.1.1.zip"
+  dist:             "https://github.com/marstau/smartcooly.doc/releases/download/v4.1.1/bootstrap-4.1.1-dist.zip"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes

@@ -41,7 +41,7 @@ module.exports = {
     banner: `/*!
   * Bootstrap v${pkg.version} (${pkg.homepage})
   * Copyright 2011-${year} ${pkg.author}
-  * Licensed under MIT (https://github.com/marstau/WebDocument/blob/master/LICENSE)
+  * Licensed under MIT (https://github.com/marstau/smartcooly.doc/blob/master/LICENSE)
   */`,
     file: path.resolve(__dirname, `../dist/js/${fileDest}`),
     format: 'umd',

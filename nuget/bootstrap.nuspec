@@ -12,7 +12,7 @@
     <language>en-us</language>
     <projectUrl>https://smartcooly.marstau.com/</projectUrl>
     <iconUrl>https://smartcooly.marstau.com/assets/img/favicons/apple-touch-icon.png</iconUrl>
-    <licenseUrl>https://github.com/marstau/WebDocument/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/marstau/smartcooly.doc/blob/master/LICENSE</licenseUrl>
     <copyright>Copyright 2017-2018</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>

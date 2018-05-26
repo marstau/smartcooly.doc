@@ -1,5 +1,5 @@
 {
-  "name": "marstau/WebDocument",
+  "name": "marstau/smartcooly.doc",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "keywords": [
     "css",
@@ -23,7 +23,7 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/marstau/WebDocument/issues"
+    "issues": "https://github.com/marstau/smartcooly.doc/issues"
   },
   "license": "MIT",
   "extra": {

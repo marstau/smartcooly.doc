@@ -11,9 +11,9 @@
     <a href="http://smartcooly.marstau.com/docs/1.0"><strong>Explore WebDocument docs »</strong></a>
     <br>
     <br>
-    <a href="https://github.com/marstau/WebDocument/issues/new?template=bug.md">Report bug</a>
+    <a href="https://github.com/marstau/smartcooly.doc/issues/new?template=bug.md">Report bug</a>
     ·
-    <a href="https://github.com/marstau/WebDocument/issues/new?template=feature.md&labels=feature">Request feature</a>
+    <a href="https://github.com/marstau/smartcooly.doc/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
 </p>
 
@@ -46,7 +46,7 @@ Learn more about using Jekyll by reading its [documentation](https://jekyllrb.co
 
 1. Replace `docs/1.0` text to your version name in global, `docs/1.0` for example, and then modify directory name `docs/1.0`.
 2. Replace `smartcooly.marstau.com` text to your website `doc.abc.com` in global.
-3. Replace `marstau/WebDocument` to your project name `yourname/yourPojectDocName` in global.
+3. Replace `marstau/smartcooly.doc` to your project name `yourname/yourPojectDocName` in global.
 4. Replace `WebDocument` to your project name `yourPojectDocName ` in global.
 
 ## Publish to github
@@ -64,7 +64,7 @@ git subtree push --prefix=dist origin gh-pages
 
 ## Copyright and license
 
-Code and documentation copyright 2011-2018 [Bootstrap Authors](https://github.com/marstau/WebDocument/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/marstau/WebDocument/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/marstau/WebDocument/blob/master/docs/LICENSE).
+Code and documentation copyright 2011-2018 [Bootstrap Authors](https://github.com/marstau/smartcooly.doc/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/marstau/smartcooly.doc/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/marstau/smartcooly.doc/blob/master/docs/LICENSE).
 
 
 ## From
