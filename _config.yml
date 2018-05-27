@@ -51,7 +51,7 @@ social_image_path:  /assets/brand/bootstrap-social.png
 social_logo_path:   /assets/brand/bootstrap-social-logo.png
 
 # Custom variables
-current_version:      4.1.1
+current_version:      1.0.0
 current_ruby_version: 4.1.1
 docs_version:         1.0
 repo:                 "https://github.com/marstau/smartcooly.doc"
