@@ -1,0 +1,1020 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="smartcooly service">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Jekyll v3.8.2">
+
+<title>API · Bootstrap</title>
+
+<!-- Bootstrap core CSS -->
+
+<link href="/dist/css/bootstrap.css" rel="stylesheet">
+
+
+<!-- Documentation extras -->
+
+<link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
+
+<link href="/assets/css/docs.min.css" rel="stylesheet">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/favicon.ico">
+<meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@getbootstrap">
+<meta name="twitter:creator" content="@getbootstrap">
+<meta name="twitter:title" content="API">
+<meta name="twitter:description" content="smartcooly service">
+<meta name="twitter:image" content="https://smartcooly.marstau.com/assets/brand/bootstrap-social-logo.png">
+
+<!-- Facebook -->
+<meta property="og:url" content="https://smartcooly.marstau.com/docs/1.0/api/">
+<meta property="og:title" content="API">
+<meta property="og:description" content="smartcooly service">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://smartcooly.marstau.com/assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content="https://smartcooly.marstau.com/assets/brand/bootstrap-social.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-146052-10', 'smartcooly.marstau.com');
+  ga('send', 'pageview');
+</script>
+
+  </head>
+  <body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+  <div class="container">
+    <span class="skiplink-text">Skip to main content</span>
+  </div>
+</a>
+
+
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+  <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap"><svg class="d-block" width="36" height="36" viewbox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false"><title>Bootstrap</title><path fill="currentColor" d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z"/><path fill="currentColor" d="M196.77 471.5V154.43h124.15c54.27 0 91 31.64 91 79.1 0 33-24.17 63.72-54.71 69.21v1.76c43.07 5.49 70.75 35.82 70.75 78 0 55.81-40 89-107.45 89zm39.55-180.4h63.28c46.8 0 72.29-18.68 72.29-53 0-31.42-21.53-48.78-60-48.78h-75.57zm78.22 145.46c47.68 0 72.73-19.34 72.73-56s-25.93-55.37-76.46-55.37h-74.49v111.4z"/></svg>
+</a>
+
+  <div class="navbar-nav-scroll">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+      <li class="nav-item">
+        <a class="nav-link " href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/docs/1.0/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="/docs/1.0/about/denote" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Denote');">Denote</a>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+    <li class="nav-item dropdown">
+      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        v1.0
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+        <a class="dropdown-item active" href="/docs/1.0/">Latest (4.1.x)</a>
+        <div class="dropdown-divider"></div>
+      </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link p-2" href="https://github.com/marstau/smartcooly.doc" target="_blank" rel="noopener" aria-label="GitHub"><svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 499.36" focusable="false"><title>GitHub</title><path d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+    </li>
+  </ul>
+
+  <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://github.com/marstau/smartcooly.doc/archive/v4.1.1.zip">Download</a>
+</header>
+
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <form class="bd-search d-flex align-items-center">
+  <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off" data-siteurl="https://smartcooly.marstau.com" data-docs-version="1.0">
+  <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>
+</button>
+</form>
+
+<nav class="collapse bd-links" id="bd-docs-nav"><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/getting-started/introduction/">
+        Getting started
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/docs/1.0/getting-started/introduction/">
+              Introduction
+            </a></li><li>
+            <a href="/docs/1.0/getting-started/download/">
+              Download
+            </a></li><li>
+            <a href="/docs/1.0/getting-started/installation/">
+              Installation
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/usage/">
+        Usage
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/api/">
+        API
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/api-zh-cn/">
+        API-ZH-CN
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/support-exchanges/">
+        Support Exchanges
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/references/cryptocurrency-exchange-markets/">
+        References
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/docs/1.0/references/cryptocurrency-exchange-markets/">
+              Cryptocurrency Exchange Markets
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/about/license/">
+        About
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/docs/1.0/about/license/">
+              License
+            </a></li><li>
+            <a href="/docs/1.0/about/denote/">
+              Denote
+            </a></li></ul>
+    </div></nav>
+
+        </div>
+
+        
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#installation">Installation</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#from-installation-package">From installation package</a></li>
+<li class="toc-entry toc-h3"><a href="#from-docker">From Docker</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#supported-exchanges">Supported exchanges</a></li>
+<li class="toc-entry toc-h2"><a href="#usage">Usage</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#add-an-exchange">Add an Exchange</a></li>
+<li class="toc-entry toc-h3"><a href="#add-an-algorithm">Add an Algorithm</a></li>
+<li class="toc-entry toc-h3"><a href="#deploy-an-algorithm">Deploy an Algorithm</a></li>
+<li class="toc-entry toc-h3"><a href="#run-a-trader">Run a Trader</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#protocols">Protocols</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#global-constant">Global constant</a></li>
+<li class="toc-entry toc-h3"><a href="#trade-type">Trade type</a></li>
+<li class="toc-entry toc-h3"><a href="#records-period">Records period</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#data-struct">Data struct</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#account">Account</a></li>
+<li class="toc-entry toc-h3"><a href="#position">Position</a></li>
+<li class="toc-entry toc-h3"><a href="#order">Order</a></li>
+<li class="toc-entry toc-h3"><a href="#record">Record</a></li>
+<li class="toc-entry toc-h3"><a href="#orderbook">OrderBook</a></li>
+<li class="toc-entry toc-h3"><a href="#ticker">Ticker</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#globalg">Global/G</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#sleep">Sleep</a></li>
+<li class="toc-entry toc-h3"><a href="#log">Log</a></li>
+<li class="toc-entry toc-h3"><a href="#logprofit">LogProfit</a></li>
+<li class="toc-entry toc-h3"><a href="#logstatus">LogStatus</a></li>
+<li class="toc-entry toc-h3"><a href="#addtask">AddTask</a></li>
+<li class="toc-entry toc-h3"><a href="#exectasks">ExecTasks</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#exchangee">Exchange/E</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#log-1">Log</a></li>
+<li class="toc-entry toc-h3"><a href="#gettype">GetType</a></li>
+<li class="toc-entry toc-h3"><a href="#getname">GetName</a></li>
+<li class="toc-entry toc-h3"><a href="#getmainstock">GetMainStock</a></li>
+<li class="toc-entry toc-h3"><a href="#setmainstock">SetMainStock</a></li>
+<li class="toc-entry toc-h3"><a href="#setlimit">SetLimit</a></li>
+<li class="toc-entry toc-h3"><a href="#autosleep">AutoSleep</a></li>
+<li class="toc-entry toc-h3"><a href="#getaccount">GetAccount</a></li>
+<li class="toc-entry toc-h3"><a href="#getpositions">GetPositions</a></li>
+<li class="toc-entry toc-h3"><a href="#getminamount">GetMinAmount</a></li>
+<li class="toc-entry toc-h3"><a href="#trade">Trade</a></li>
+<li class="toc-entry toc-h3"><a href="#getorder">GetOrder</a></li>
+<li class="toc-entry toc-h3"><a href="#getorders">GetOrders</a></li>
+<li class="toc-entry toc-h3"><a href="#gettrades">GetTrades</a></li>
+<li class="toc-entry toc-h3"><a href="#cancelorder">CancelOrder</a></li>
+<li class="toc-entry toc-h3"><a href="#getticker">GetTicker</a></li>
+<li class="toc-entry toc-h3"><a href="#getrecords">GetRecords</a></li>
+</ul>
+</li>
+</ul>
+          </div>
+        
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          <h1 class="bd-title" id="content">API</h1>
+          <p class="bd-lead">smartcooly service</p>
+          
+          <h2 id="installation">Installation</h2>
+
+<p>You can install smartcooly from <strong>installation package</strong> or <strong>Docker</strong>.</p>
+
+<p>The default username and password are <code class="highlighter-rouge">admin</code>, please modify them immediately after login!</p>
+
+<h3 id="from-installation-package">From installation package</h3>
+
+<ol>
+  <li>Download the smartcooly installation package on <a href="https://github.com/marstau/smartcooly/releases">this page</a></li>
+  <li>Unzip the smartcooly installation package</li>
+  <li>Enter the extracted smartcooly installation directory</li>
+  <li>Run <code class="highlighter-rouge">smartcooly</code></li>
+</ol>
+
+<p>Then, smartcooly is running at <code class="highlighter-rouge">http://localhost:9876</code>.</p>
+
+<p><strong>Linux &amp; Mac user quick start command</strong></p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://github.com/marstau/smartcooly/releases/download/v/smartcooly__.tar.gz
+<span class="nb">tar</span> <span class="nt">-xzvf</span> smartcooly__.tar.gz
+<span class="nb">cd </span>smartcooly__
+./smartcooly
+</code></pre></div></div>
+
+<p>Please replace **, **, ** first.</p>
+
+<h3 id="from-docker">From Docker</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">--name</span><span class="o">=</span>smartcooly <span class="nt">-p</span> 19876:9876 miaolz123/smartcooly
+</code></pre></div></div>
+
+<p>Then, smartcooly is running at <code class="highlighter-rouge">http://localhost:19876</code>.</p>
+
+<h2 id="supported-exchanges">Supported exchanges</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Exchange</th>
+      <th>Stock</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>okcoin.cn</td>
+      <td><code class="highlighter-rouge">BTC/CNY</code>, <code class="highlighter-rouge">LTC/CNY</code></td>
+    </tr>
+    <tr>
+      <td>huobi</td>
+      <td><code class="highlighter-rouge">BTC/CNY</code>, <code class="highlighter-rouge">LTC/CNY</code></td>
+    </tr>
+    <tr>
+      <td>poloniex</td>
+      <td><code class="highlighter-rouge">ETH/BTC</code>, <code class="highlighter-rouge">XMR/BTC</code>, <code class="highlighter-rouge">BTC/USDT</code>, <code class="highlighter-rouge">LTC/BTC</code>, <code class="highlighter-rouge">ETC/BTC</code>, <code class="highlighter-rouge">XRP/BTC</code>, <code class="highlighter-rouge">ETH/USDT</code>, <code class="highlighter-rouge">ETC/ETH</code>, …</td>
+    </tr>
+    <tr>
+      <td>btcc</td>
+      <td><code class="highlighter-rouge">BTC/CNY</code>, <code class="highlighter-rouge">LTC/CNY</code>, <code class="highlighter-rouge">LTC/BTC</code></td>
+    </tr>
+    <tr>
+      <td>chbtc</td>
+      <td><code class="highlighter-rouge">BTC/CNY</code>, <code class="highlighter-rouge">LTC/CNY</code>, <code class="highlighter-rouge">ETH/CNY</code>, <code class="highlighter-rouge">ETC/CNY</code></td>
+    </tr>
+    <tr>
+      <td>okcoin.future</td>
+      <td><code class="highlighter-rouge">BTC.WEEK/USD</code>, <code class="highlighter-rouge">BTC.WEEK2/USD</code>, <code class="highlighter-rouge">BTC.MONTH3/USD</code>, <code class="highlighter-rouge">LTC.WEEK/USD</code>, …</td>
+    </tr>
+    <tr>
+      <td>oanda.v20</td>
+      <td>coming soon ……</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="add-an-exchange">Add an Exchange</h3>
+
+<p><img src="../../../assets/img/media/add-exchange.png" alt="" width="648" height="336" /></p>
+
+<h3 id="add-an-algorithm">Add an Algorithm</h3>
+
+<p><img src="../../../assets/img/media/add-algorithm.png" alt="" width="648" height="336" /></p>
+
+<p><img src="../../../assets/img/media/edit-algorithm.png" alt="" width="648" height="336" /></p>
+
+<h3 id="deploy-an-algorithm">Deploy an Algorithm</h3>
+
+<p><img src="../../../assets/img/media/add-trader.png" alt="" width="648" height="336" /></p>
+
+<h3 id="run-a-trader">Run a Trader</h3>
+
+<p><img src="../../../assets/img/media/run-trader.png" alt="" width="648" height="336" /></p>
+
+<h1 id="algorithm-reference">Algorithm Reference</h1>
+
+<h2 id="protocols">Protocols</h2>
+
+<h3 id="global-constant">Global constant</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global/G</td>
+      <td>Object</td>
+      <td>a object with some global methods</td>
+    </tr>
+    <tr>
+      <td>Exchange/E</td>
+      <td>Object</td>
+      <td>a object with some exchange methods</td>
+    </tr>
+    <tr>
+      <td>Exchanges/Es</td>
+      <td>Object List</td>
+      <td>an <code class="highlighter-rouge">Exchange/E</code> list</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="trade-type">Trade type</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BUY</td>
+      <td>String</td>
+      <td>buy</td>
+    </tr>
+    <tr>
+      <td>SELL</td>
+      <td>String</td>
+      <td>sell</td>
+    </tr>
+    <tr>
+      <td>LONG</td>
+      <td>String</td>
+      <td>long contract</td>
+    </tr>
+    <tr>
+      <td>SHORT</td>
+      <td>String</td>
+      <td>short contract</td>
+    </tr>
+    <tr>
+      <td>LONG_CLOSE</td>
+      <td>String</td>
+      <td>close long contract</td>
+    </tr>
+    <tr>
+      <td>SHORT_CLOSE</td>
+      <td>String</td>
+      <td>close short contract</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="records-period">Records period</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>M</td>
+      <td>String</td>
+      <td>1 minute</td>
+    </tr>
+    <tr>
+      <td>M5</td>
+      <td>String</td>
+      <td>5 minutes</td>
+    </tr>
+    <tr>
+      <td>M15</td>
+      <td>String</td>
+      <td>15 minutes</td>
+    </tr>
+    <tr>
+      <td>M30</td>
+      <td>String</td>
+      <td>30 minutes</td>
+    </tr>
+    <tr>
+      <td>H</td>
+      <td>String</td>
+      <td>1 hour</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>String</td>
+      <td>1 day</td>
+    </tr>
+    <tr>
+      <td>W</td>
+      <td>String</td>
+      <td>1 week</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="data-struct">Data struct</h2>
+
+<h3 id="account">Account</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CNY</td>
+      <td>Number</td>
+      <td>available CNY amount</td>
+    </tr>
+    <tr>
+      <td>FrozenCNY</td>
+      <td>Number</td>
+      <td>frozen CNY amount</td>
+    </tr>
+    <tr>
+      <td>BTC</td>
+      <td>Number</td>
+      <td>available BTC amount</td>
+    </tr>
+    <tr>
+      <td>FrozenBTC</td>
+      <td>Number</td>
+      <td>frozen BTC amount</td>
+    </tr>
+    <tr>
+      <td>LTC</td>
+      <td>Number</td>
+      <td>available LTC amount</td>
+    </tr>
+    <tr>
+      <td>FrozenLTC</td>
+      <td>Number</td>
+      <td>frozen LTC amount</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>Number</td>
+      <td>available … amount</td>
+    </tr>
+    <tr>
+      <td>Frozen…</td>
+      <td>Number</td>
+      <td>frozen … amount</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="position">Position</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Price</td>
+      <td>Number</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>Leverage</td>
+      <td>Number</td>
+      <td>leverage</td>
+    </tr>
+    <tr>
+      <td>Amount</td>
+      <td>Number</td>
+      <td>total position amount</td>
+    </tr>
+    <tr>
+      <td>FrozenAmount</td>
+      <td>Number</td>
+      <td>frozen position amount</td>
+    </tr>
+    <tr>
+      <td>Profit</td>
+      <td>Number</td>
+      <td>profit</td>
+    </tr>
+    <tr>
+      <td>ContractType</td>
+      <td>String</td>
+      <td>contract type</td>
+    </tr>
+    <tr>
+      <td>TradeType</td>
+      <td>String</td>
+      <td>trade type</td>
+    </tr>
+    <tr>
+      <td>StockType</td>
+      <td>String</td>
+      <td>stock type</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="order">Order</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID</td>
+      <td>String</td>
+      <td>unique id</td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>Number</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>Amount</td>
+      <td>Number</td>
+      <td>total amount</td>
+    </tr>
+    <tr>
+      <td>DealAmount</td>
+      <td>Number</td>
+      <td>deal amount</td>
+    </tr>
+    <tr>
+      <td>Fee</td>
+      <td>Number</td>
+      <td>fee of this order</td>
+    </tr>
+    <tr>
+      <td>TradeType</td>
+      <td>String</td>
+      <td>trade type</td>
+    </tr>
+    <tr>
+      <td>StockType</td>
+      <td>String</td>
+      <td>stock type</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="record">Record</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Time</td>
+      <td>Number</td>
+      <td>unix timestamp</td>
+    </tr>
+    <tr>
+      <td>Open</td>
+      <td>Number</td>
+      <td>open price</td>
+    </tr>
+    <tr>
+      <td>High</td>
+      <td>Number</td>
+      <td>high price</td>
+    </tr>
+    <tr>
+      <td>Low</td>
+      <td>Number</td>
+      <td>low price</td>
+    </tr>
+    <tr>
+      <td>Close</td>
+      <td>Number</td>
+      <td>close price</td>
+    </tr>
+    <tr>
+      <td>Volume</td>
+      <td>Number</td>
+      <td>trade volume</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="orderbook">OrderBook</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Price</td>
+      <td>Number</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>Amount</td>
+      <td>Number</td>
+      <td>market depth amount</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="ticker">Ticker</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bids</td>
+      <td>OrderBook List</td>
+      <td>bid market depth list</td>
+    </tr>
+    <tr>
+      <td>Buy</td>
+      <td>Number</td>
+      <td>the first bid price, <code class="highlighter-rouge">Bids[0].Price</code></td>
+    </tr>
+    <tr>
+      <td>Mid</td>
+      <td>Number</td>
+      <td><code class="highlighter-rouge">(Buy + Sell) / 2</code></td>
+    </tr>
+    <tr>
+      <td>Sell</td>
+      <td>Number</td>
+      <td>the first ask price, <code class="highlighter-rouge">Asks[0].Price</code></td>
+    </tr>
+    <tr>
+      <td>Asks</td>
+      <td>OrderBook List</td>
+      <td>ask market depth list</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="globalg">Global/G</h2>
+
+<p><code class="highlighter-rouge">Global</code>/<code class="highlighter-rouge">G</code> is a object with some global methods.</p>
+
+<h3 id="sleep">Sleep</h3>
+
+<blockquote>
+  <p>G.Sleep(Interval: <em>Any</em>) =&gt; <em>No Return</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// the program will sleep for 5 seconds</span>
+<span class="c1">// if Interval &lt;= 0, will automatic execute AutoSleep() of all Exchanges</span>
+<span class="nx">G</span><span class="p">.</span><span class="nx">Sleep</span><span class="p">(</span><span class="mi">5000</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="log">Log</h3>
+
+<blockquote>
+  <p>G.Log(Message: <em>Any</em>) =&gt; <em>No Return</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// send a message to web control</span>
+<span class="nx">G</span><span class="p">.</span><span class="nx">Log</span><span class="p">(</span><span class="s2">"I'm running…"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="logprofit">LogProfit</h3>
+
+<blockquote>
+  <p>G.LogProfit(Profit: <em>Number</em>, Message: <em>Any</em>) =&gt; <em>No Return</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// send a profit message to web control to show profit chart</span>
+<span class="nx">G</span><span class="p">.</span><span class="nx">LogProfit</span><span class="p">(</span><span class="mf">12.345</span><span class="p">,</span> <span class="s1">'Round 1 end'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="logstatus">LogStatus</h3>
+
+<blockquote>
+  <p>G.LogStatus(Message: <em>Any</em>) =&gt; <em>No Return</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// send a status message to web control to show it real-time</span>
+<span class="nx">G</span><span class="p">.</span><span class="nx">LogStatus</span><span class="p">(</span><span class="s1">'Latest BTC Ticker: '</span><span class="p">,</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetTicker</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">));</span>
+</code></pre></div></div>
+
+<h3 id="addtask">AddTask</h3>
+
+<blockquote>
+  <p>G.AddTask(Function: <em>Function</em>, Arguments: <em>Any</em>) =&gt; <em>Boolean</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// work with G.ExecTasks()</span>
+</code></pre></div></div>
+
+<h3 id="exectasks">ExecTasks</h3>
+
+<blockquote>
+  <p>G.ExecTasks() =&gt; <em>List</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// send same tasks to task list</span>
+<span class="nx">G</span><span class="p">.</span><span class="nx">AddTask</span><span class="p">(</span><span class="nx">E</span><span class="p">.</span><span class="nx">GetAccount</span><span class="p">);</span>
+<span class="nx">G</span><span class="p">.</span><span class="nx">AddTask</span><span class="p">(</span><span class="nx">E</span><span class="p">.</span><span class="nx">GetTicker</span><span class="p">,</span> <span class="s1">'BTC/USD'</span><span class="p">);</span>
+
+<span class="c1">// execute all tasks at the same time and return all results</span>
+<span class="kd">var</span> <span class="nx">results</span> <span class="o">=</span> <span class="nx">G</span><span class="p">.</span><span class="nx">ExecTasks</span><span class="p">();</span>
+<span class="kd">var</span> <span class="nx">thisAccount</span> <span class="o">=</span> <span class="nx">results</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+<span class="kd">var</span> <span class="nx">thisTicker</span> <span class="o">=</span> <span class="nx">results</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+</code></pre></div></div>
+
+<h2 id="exchangee">Exchange/E</h2>
+
+<p><code class="highlighter-rouge">Exchange</code>/<code class="highlighter-rouge">E</code> is a object with some exchange methods.</p>
+
+<h3 id="log-1">Log</h3>
+
+<blockquote>
+  <p>E.Log(Message: <em>Any</em>) =&gt; <em>No Return</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// send a message of this exchange to web control</span>
+<span class="nx">E</span><span class="p">.</span><span class="nx">Log</span><span class="p">(</span><span class="s2">"I'm running…"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="gettype">GetType</h3>
+
+<blockquote>
+  <p>E.GetType() =&gt; <em>String</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// get the type of this exchange</span>
+<span class="kd">var</span> <span class="nx">thisType</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetType</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h3 id="getname">GetName</h3>
+
+<blockquote>
+  <p>E.GetName() =&gt; <em>String</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// get the name of this exchange</span>
+<span class="kd">var</span> <span class="nx">thisName</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetName</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h3 id="getmainstock">GetMainStock</h3>
+
+<blockquote>
+  <p>E.GetMainStock() =&gt; <em>String</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// get the main stock type of this exchange</span>
+<span class="kd">var</span> <span class="nx">thisMainStock</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetMainStock</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h3 id="setmainstock">SetMainStock</h3>
+
+<blockquote>
+  <p>E.SetMainStock(StockType: <em>String</em>) =&gt; <em>String</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// set the main stock type of this exchange</span>
+<span class="kd">var</span> <span class="nx">newMainStockType</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">SetMainStock</span><span class="p">(</span><span class="s1">'LTC/USD'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="setlimit">SetLimit</h3>
+
+<blockquote>
+  <p>E.SetLimit(times: <em>Number</em>) =&gt; <em>Number</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// set the limit calls amount per second of this exchange</span>
+<span class="c1">// work with E.AutoSleep()</span>
+<span class="kd">var</span> <span class="nx">newLimit</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">SetLimit</span><span class="p">(</span><span class="mi">6</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="autosleep">AutoSleep</h3>
+
+<blockquote>
+  <p>E.AutoSleep() =&gt; <em>No Return</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// auto sleep to achieve the limit calls amount per second of this exchange</span>
+<span class="nx">E</span><span class="p">.</span><span class="nx">AutoSleep</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h3 id="getaccount">GetAccount</h3>
+
+<blockquote>
+  <p>E.GetAccount() =&gt; <em>Account</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// get the account info of this exchange</span>
+<span class="kd">var</span> <span class="nx">thisAccount</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetAccount</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h3 id="getpositions">GetPositions</h3>
+
+<blockquote>
+  <p>E.GetPositions(StockType: <em>String</em>) =&gt; <em>Position List</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// get the position list of this exchange</span>
+<span class="kd">var</span> <span class="nx">thisPositions</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetPositions</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="getminamount">GetMinAmount</h3>
+
+<blockquote>
+  <p>E.GetMinAmount(StockType: <em>String</em>) =&gt; <em>Number</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// get the min trade amount of this exchange</span>
+<span class="kd">var</span> <span class="nx">thisMinAmount</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetMinAmount</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="trade">Trade</h3>
+
+<blockquote>
+  <p>E.Trade(TradeType: <a href="#trade-type"><em>String</em></a>, StockType: <em>String</em>, Price: <em>Number</em>, Amount: <em>Number</em>, Message: <em>Any</em>) =&gt; <em>String</em>/<em>Boolean</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// buy example</span>
+<span class="c1">// if Price &lt;= 0, it's a market order, and the Amount will be different</span>
+<span class="c1">// return ID of this order if succeed</span>
+<span class="c1">// return false if fail</span>
+<span class="nx">E</span><span class="p">.</span><span class="nx">Trade</span><span class="p">(</span><span class="s1">'BUY'</span><span class="p">,</span> <span class="s1">'BTC/USD'</span><span class="p">,</span> <span class="mi">600</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s1">'I paid $300'</span><span class="p">);</span> <span class="c1">// normal order</span>
+<span class="nx">E</span><span class="p">.</span><span class="nx">Trade</span><span class="p">(</span><span class="s1">'BUY'</span><span class="p">,</span> <span class="s1">'BTC/USD'</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="s1">'I also paid $300'</span><span class="p">);</span> <span class="c1">// market order</span>
+
+<span class="c1">// sell example</span>
+<span class="c1">// if Price &lt;= 0, it's a market order</span>
+<span class="c1">// return ID of this order if succeed</span>
+<span class="c1">// return false if fail</span>
+<span class="nx">E</span><span class="p">.</span><span class="nx">Trade</span><span class="p">(</span><span class="s1">'SELL'</span><span class="p">,</span> <span class="s1">'BTC/USD'</span><span class="p">,</span> <span class="mi">600</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">);</span> <span class="c1">// normal order</span>
+<span class="nx">E</span><span class="p">.</span><span class="nx">Trade</span><span class="p">(</span><span class="s1">'SELL'</span><span class="p">,</span> <span class="s1">'BTC/USD'</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">);</span> <span class="c1">// market order</span>
+</code></pre></div></div>
+
+<h3 id="getorder">GetOrder</h3>
+
+<blockquote>
+  <p>E.GetOrder(StockType: <em>String</em>, ID: <em>String</em>) =&gt; <em>Order</em>/<em>Boolean</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// return info of this order if succeed</span>
+<span class="c1">// return false if fail</span>
+<span class="kd">var</span> <span class="nx">thisOrder</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetOrder</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">,</span> <span class="s1">'XXXXXX'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="getorders">GetOrders</h3>
+
+<blockquote>
+  <p>E.GetOrders(StockType: <em>String</em>) =&gt; <em>Order List</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// return all the undone orders</span>
+<span class="kd">var</span> <span class="nx">thisOrders</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetOrders</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="gettrades">GetTrades</h3>
+
+<blockquote>
+  <p>E.GetTrades(StockType: <em>String</em>) =&gt; <em>Order List</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// return all the done orders</span>
+<span class="kd">var</span> <span class="nx">thisTrades</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetTrades</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="cancelorder">CancelOrder</h3>
+
+<blockquote>
+  <p>E.CancelOrder(Order: <em>Order</em>) =&gt; <em>Boolean</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">thisOrders</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetOrders</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">);</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">thisOrders</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// return the result</span>
+    <span class="kd">var</span> <span class="nx">isCanceled</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">CancelOrder</span><span class="p">(</span><span class="nx">thisOrders</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="getticker">GetTicker</h3>
+
+<blockquote>
+  <p>E.GetTicker(StockType: <em>String</em>, Size: <em>Any</em>) =&gt; <em>Ticker</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// get the latest ticker of this exchange</span>
+<span class="kd">var</span> <span class="nx">thisTicker</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetTicker</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="getrecords">GetRecords</h3>
+
+<blockquote>
+  <p>E.GetRecords(StockType: <em>String</em>, Period: <a href="#records-period"><em>String</em></a>, Size: <em>Any</em>) =&gt; <em>Record List</em></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// get the latest records of this exchange</span>
+<span class="kd">var</span> <span class="nx">thisRecords</span> <span class="o">=</span> <span class="nx">E</span><span class="p">.</span><span class="nx">GetRecords</span><span class="p">(</span><span class="s1">'BTC/USD'</span><span class="p">,</span> <span class="s1">'M5'</span><span class="p">);</span>
+</code></pre></div></div>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
+<script src="/assets/js/vendor/popper.min.js"></script><script src="/dist/js/bootstrap.js"></script><script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script><script src="/assets/js/vendor/anchor.min.js"></script>
+  <script src="/assets/js/vendor/clipboard.min.js"></script>
+  <script src="/assets/js/vendor/holder.min.js"></script>
+  <script src="/assets/js/src/application.js"></script>
+  <script src="/assets/js/src/search.js"></script>
+  <script src="/assets/js/src/ie-emulation-modes-warning.js"></script>
+  <script src="/assets/js/src/pwa.js"></script>
+  </body>
+</html>

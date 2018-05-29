@@ -7,7 +7,7 @@
 <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 <meta name="generator" content="Jekyll v3.8.2">
 
-<title>Bootstrap · The most popular HTML, CSS, and JS library in the world.</title>
+<title>Denotes · Bootstrap</title>
 
 <!-- Bootstrap core CSS -->
 
@@ -15,6 +15,8 @@
 
 
 <!-- Documentation extras -->
+
+<link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
 
 <link href="/assets/css/docs.min.css" rel="stylesheet">
 
@@ -30,16 +32,16 @@
 
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@getbootstrap">
 <meta name="twitter:creator" content="@getbootstrap">
-<meta name="twitter:title" content="Bootstrap">
+<meta name="twitter:title" content="Denotes">
 <meta name="twitter:description" content="The most popular HTML, CSS, and JS library in the world.">
-<meta name="twitter:image" content="https://smartcooly.marstau.com/assets/brand/bootstrap-social.png">
+<meta name="twitter:image" content="https://smartcooly.marstau.com/assets/brand/bootstrap-social-logo.png">
 
 <!-- Facebook -->
-<meta property="og:url" content="https://smartcooly.marstau.com/">
-<meta property="og:title" content="Bootstrap">
+<meta property="og:url" content="https://smartcooly.marstau.com/docs/1.0/about/denote/">
+<meta property="og:title" content="Denotes">
 <meta property="og:description" content="The most popular HTML, CSS, and JS library in the world.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="http://smartcooly.marstau.com/assets/brand/bootstrap-social.png">
@@ -74,10 +76,10 @@
   <div class="navbar-nav-scroll">
     <ul class="navbar-nav bd-navbar-nav flex-row">
       <li class="nav-item">
-        <a class="nav-link active" href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+        <a class="nav-link " href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="/docs/1.0/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
+        <a class="nav-link active" href="/docs/1.0/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="/docs/1.0/about/denote" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Denote');">Denote</a>
@@ -106,50 +108,122 @@
 </header>
 
 
-    <main class="bd-masthead" id="content" role="main">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-6 mx-auto col-md-6 order-md-2">
-        <img class="img-fluid mb-3 mb-md-0" src="/assets/img/bootstrap-stack.png" alt="" width="1024" height="860">
-      </div>
-      <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
-        <h1 class="mb-3 bd-text-purple-bright">Smartcooly</h1>
-        <p class="lead">
-          Open Source Automatic Trading Platform for Digital Currency.
-        </p>
-        <p class="lead mb-4">
-          Official website  <a href="https://smartcooly.herokuapp.com">https://smartcooly.herokuapp.com</a>
-        </p>
-        <div class="d-flex flex-column flex-md-row lead mb-3">
-          <a href="/docs/1.0/getting-started/introduction/" class="btn btn-lg btn-bd-primary mb-3 mb-md-0 mr-md-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">Get started</a>
-          <a href="/docs/1.0/getting-started/download/" class="btn btn-lg btn-outline-secondary" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download 1.0.0');">Download</a>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <form class="bd-search d-flex align-items-center">
+  <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off" data-siteurl="https://smartcooly.marstau.com" data-docs-version="1.0">
+  <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>
+</button>
+</form>
+
+<nav class="collapse bd-links" id="bd-docs-nav"><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/getting-started/introduction/">
+        Getting started
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/docs/1.0/getting-started/introduction/">
+              Introduction
+            </a></li><li>
+            <a href="/docs/1.0/getting-started/download/">
+              Download
+            </a></li><li>
+            <a href="/docs/1.0/getting-started/installation/">
+              Installation
+            </a></li></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/usage/">
+        Usage
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/api/">
+        API
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/api-zh-cn/">
+        API-ZH-CN
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/support-exchanges/">
+        Support Exchanges
+      </a>
+
+      <ul class="nav bd-sidenav"></ul>
+    </div><div class="bd-toc-item">
+      <a class="bd-toc-link" href="/docs/1.0/references/cryptocurrency-exchange-markets/">
+        References
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/docs/1.0/references/cryptocurrency-exchange-markets/">
+              Cryptocurrency Exchange Markets
+            </a></li></ul>
+    </div><div class="bd-toc-item active">
+      <a class="bd-toc-link" href="/docs/1.0/about/license/">
+        About
+      </a>
+
+      <ul class="nav bd-sidenav"><li>
+            <a href="/docs/1.0/about/license/">
+              License
+            </a></li><li class="active bd-sidenav-active">
+            <a href="/docs/1.0/about/denote/">
+              Denote
+            </a></li></ul>
+    </div></nav>
+
         </div>
-        <p class="text-muted mb-0">
-          Currently v1.0.0
-        </p>
+
+        
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          <h1 class="bd-title" id="content">Denotes</h1>
+          <p class="bd-lead"></p>
+          
+          <p>Please denote me 0.00000000000001 or 0.01 eth for appreciate.<img src="../../../../assets/img/favicons/smile.png" alt="image" width="18" height="18" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BTC</td>
+      <td>1KaJo5bFTpFzJXSYDiFjYkHELvcQdy9NSn</td>
+    </tr>
+    <tr>
+      <td>ETH</td>
+      <td>0x6E6dDDE24C79e94633CACAa442FadDcD41Af31Bd</td>
+    </tr>
+    <tr>
+      <td>Wechat</td>
+      <td><img src="../../../../assets/img/denote/wechat.jpeg" alt="image" width="310" height="421" /></td>
+    </tr>
+    <tr>
+      <td>Alipay</td>
+      <td><img src="../../../../assets/img/denote/alipay.jpeg" alt="image" width="300" height="450" /></td>
+    </tr>
+  </tbody>
+</table>
+
+        </main>
       </div>
     </div>
-    
-  </div>
-</main>
-
-
-
-    <footer class="bd-footer text-muted">
-  <div class="container-fluid p-3 p-md-5">
-    <ul class="bd-footer-links">
-      <li><a href="https://github.com/marstau/smartcooly.doc">GitHub</a></li>
-      <li><a href="/docs/1.0/about/overview/">About</a></li>
-      <li><a href="/docs/1.0/about/denote/">Denote</a></li>
-    </ul>
-    <p>Designed and built in the world by <a href="https://github.com/marstau" target="_blank" rel="noopener">@marstau</a>.</p>
-  </div>
-</footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
 
-<script src="/assets/js/vendor/popper.min.js"></script><script src="/dist/js/bootstrap.js"></script><script src="/assets/js/vendor/anchor.min.js"></script>
+<script src="/assets/js/vendor/popper.min.js"></script><script src="/dist/js/bootstrap.js"></script><script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script><script src="/assets/js/vendor/anchor.min.js"></script>
   <script src="/assets/js/vendor/clipboard.min.js"></script>
   <script src="/assets/js/vendor/holder.min.js"></script>
   <script src="/assets/js/src/application.js"></script>
