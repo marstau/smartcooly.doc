@@ -197,7 +197,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "docs/1.0/getting-started/introduction/index.html",
-    "revision": "bcd84df613e673adae787bdcd29b3fd3"
+    "revision": "ffdad92551b3f90daf8e5db30aae4157"
   },
   {
     "url": "docs/1.0/index.html",
@@ -225,7 +225,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "a91da5ebf8476183afd4949d2443f3e6"
+    "revision": "8612a01ff7903b14d0010293001f73e3"
   },
   {
     "url": "redirects.json",
