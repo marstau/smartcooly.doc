@@ -13,7 +13,6 @@
   {%- assign group_slug = group.title | slugify -%}
   {%- assign active = nil -%}
   {%- assign language = page.url | slice: 6, 2 -%}
-  {%- page.language = language -%}
 
   {%- if page.group == group_slug -%}
     {%- assign active = 'active' -%}

@@ -10,10 +10,10 @@
         <a class="nav-link {% if page.layout == "home" %}active{% endif %}" href="{{ site.baseurl }}/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link {% if page.layout == "docs" %}active{% endif %}" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
+        <a class="nav-link {% if page.layout == "docs" %}active{% endif %}" href="{{ site.baseurl }}/docs/{{page.language}}/{{ site.docs_version }}/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link {% if page.title == "Denote" %}active{% endif %}" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/about/denote" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Denote');">Denote</a>
+        <a class="nav-link {% if page.title == "Denote" %}active{% endif %}" href="{{ site.baseurl }}/docs/{{page.language}}/{{ site.docs_version }}/about/denote" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Denote');">Denote</a>
       </li>
     </ul>
   </div>
