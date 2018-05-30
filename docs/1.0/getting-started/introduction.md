@@ -14,13 +14,13 @@ toc: true
 
 ## Quick start
 
-Just visit [https://smartcooly.herokuapp.com/](https://smartcooly.herokuapp.com/), you can write your own trading algorithm, which is used by js language, embedded go API.
+Just visit [https://www.smartcooly.io/](https://www.smartcooly.io/), you can write your own trading algorithm, which is used by js language, embedded go API.
 
 ## Use type
 
 ### By official website
 
-In [https://smartcooly.herokuapp.com/](https://smartcooly.herokuapp.com/)
+In [https://www.smartcooly.io/](https://www.smartcooly.io/)
 
 ### By downloading compiled binanry
 
