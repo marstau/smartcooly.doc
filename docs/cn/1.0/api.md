@@ -4,6 +4,7 @@ title: API
 description: smartcooly 服务
 group: API
 toc: true
+language: cn
 ---
 
 ## 安装
@@ -56,21 +57,21 @@ docker run --name=smartcooly -p 19876:9876 miaolz123/smartcooly
 
 ### 添加一个交易所
 
-![](../../../assets/img/media/add-exchange.png){:width="648" height="336"}
+![](../../../../assets/img/media/add-exchange.png){:width="648" height="336"}
 
 ### 添加一个量化交易算法策略
 
-![](../../../assets/img/media/add-algorithm.png){:width="648" height="336"}
+![](../../../../assets/img/media/add-algorithm.png){:width="648" height="336"}
 
-![](../../../assets/img/media/edit-algorithm.png){:width="648" height="336"}
+![](../../../../assets/img/media/edit-algorithm.png){:width="648" height="336"}
 
 ### 部署一个算法策略
 
-![](../../../assets/img/media/add-trader.png){:width="648" height="336"}
+![](../../../../assets/img/media/add-trader.png){:width="648" height="336"}
 
 ### 运行一个算法策略
 
-![](../../../assets/img/media/run-trader.png){:width="648" height="336"}
+![](../../../../assets/img/media/run-trader.png){:width="648" height="336"}
 
 # 算法策略编写说明
 
