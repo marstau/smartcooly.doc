@@ -86,5 +86,5 @@ toc:
 languages:          ['en', 'cn']
 
 # If not config, the first of languages will be the default
-language_default:   'cn'
+language_default:   'en'
 
