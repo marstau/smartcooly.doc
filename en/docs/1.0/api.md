@@ -1,79 +1,10 @@
 ---
 layout: docs
 title: API
-description: smartcooly service
+description: Algorithm Reference
 group: API
 toc: true
-language: en
 ---
-
-## Installation
-
-You can install smartcooly from **installation package** or **Docker**.
-
-The default username and password are `admin`, please modify them immediately after login!
-
-### From installation package
-
-1. Download the smartcooly installation package on [this page](https://github.com/marstau/smartcooly/releases)
-2. Unzip the smartcooly installation package
-3. Enter the extracted smartcooly installation directory
-4. Run `smartcooly`
-
-Then, smartcooly is running at `http://localhost:9876`.
-
-**Linux & Mac user quick start command**
-
-```shell
-wget https://github.com/marstau/smartcooly/releases/download/v{{VERSION}}/smartcooly_{{OS}}_{{ARCH}}.tar.gz
-tar -xzvf smartcooly_{{OS}}_{{ARCH}}.tar.gz
-cd smartcooly_{{OS}}_{{ARCH}}
-./smartcooly
-```
-
-Please replace *{{VERSION}}*, *{{OS}}*, *{{ARCH}}* first.
-
-### From Docker
-
-```shell
-docker run --name=smartcooly -p 19876:9876 miaolz123/smartcooly
-```
-
-Then, smartcooly is running at `http://localhost:19876`.
-
-## Supported exchanges
-
-| Exchange | Stock |
-| -------- | ----- |
-| okcoin.cn | `BTC/CNY`, `LTC/CNY` |
-| huobi | `BTC/CNY`, `LTC/CNY` |
-| poloniex | `ETH/BTC`, `XMR/BTC`, `BTC/USDT`, `LTC/BTC`, `ETC/BTC`, `XRP/BTC`, `ETH/USDT`, `ETC/ETH`, ... |
-| btcc | `BTC/CNY`, `LTC/CNY`, `LTC/BTC` |
-| chbtc | `BTC/CNY`, `LTC/CNY`, `ETH/CNY`, `ETC/CNY` |
-| okcoin.future | `BTC.WEEK/USD`, `BTC.WEEK2/USD`, `BTC.MONTH3/USD`, `LTC.WEEK/USD`, ... |
-| oanda.v20 | coming soon ...... |
-
-## Usage
-
-### Add an Exchange
-
-![](../../../../assets/img/media/add-exchange.png){:width="648" height="336"}
-
-### Add an Algorithm
-
-![](../../../../assets/img/media/add-algorithm.png){:width="648" height="336"}
-
-![](../../../../assets/img/media/edit-algorithm.png){:width="648" height="336"}
-
-### Deploy an Algorithm
-
-![](../../../../assets/img/media/add-trader.png){:width="648" height="336"}
-
-### Run a Trader
-
-![](../../../../assets/img/media/run-trader.png){:width="648" height="336"}
-
-# Algorithm Reference
 
 ## Protocols
 
@@ -114,14 +45,14 @@ Then, smartcooly is running at `http://localhost:19876`.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| CNY | Number | available CNY amount |
-| FrozenCNY | Number | frozen CNY amount |
-| BTC | Number | available BTC amount |
-| FrozenBTC | Number | frozen BTC amount |
-| LTC | Number | available LTC amount |
-| FrozenLTC | Number | frozen LTC amount |
-| ... | Number | available ... amount |
-| Frozen... | Number | frozen ... amount |
+| Asset | float64 | total BTC assets |
+| NetAsset | float64 | BTC net assets|
+| Exchange | String | exchange name|
+
+```javascript
+var e = E.GetAccount()
+G.Log( e.Exchange, e.NetAsset, e.Asset );
+```
 
 ### Position
 
@@ -170,11 +101,13 @@ Then, smartcooly is running at `http://localhost:19876`.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| Bids | OrderBook List | bid market depth list |
-| Buy | Number | the first bid price, `Bids[0].Price` |
-| Mid | Number | `(Buy + Sell) / 2` |
-| Sell | Number | the first ask price, `Asks[0].Price` |
-| Asks | OrderBook List | ask market depth list |
+| Last | float64 | the last deal price |
+| Buy | float64 | the highest bid price |
+| Sell | float64 | the lowest ask price |
+| High | float64 | the highest price of transaction volume |
+| Low | float64 | the lowest price of transaction volume |
+| Vol | float64 | last transaction volume |
+| Date | uint64 | timestamp |
 
 ## Global/G
 
@@ -401,7 +334,7 @@ for (var i = 0; i < thisOrders.length; i++) {
 
 ```javascript
 // get the latest ticker of this exchange
-var thisTicker = E.GetTicker('BTC/USD');
+var thisTicker = E.GetTicker('EOS_BTC');
 ```
 
 ### GetRecords
