@@ -205,7 +205,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "cn/index.html",
-    "revision": "17e67bb8232ec872a1b9ff36268b68c3"
+    "revision": "c1abb67a9846c329a0daba5f30a743dd"
   },
   {
     "url": "dist/css/bootstrap-grid.css",
@@ -317,7 +317,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "en/index.html",
-    "revision": "bec7398f472109f8488bb0d8fdd77961"
+    "revision": "ce3470ea38b541a78067b2c6671d6ed1"
   },
   {
     "url": "index.html",
