@@ -8,7 +8,7 @@
   <p align="center">
     Sleek, intuitive, and powerful front-end framework for faster and easier web development.
     <br>
-    <a href="http://smartcooly.marstau.com/docs/1.0"><strong>Explore Smartcooly docs »</strong></a>
+    <a href="http://smartcooly.marstau.com/"><strong>Explore Smartcooly docs »</strong></a>
     <br>
     <br>
     <a href="https://github.com/marstau/smartcooly.doc/issues/new?template=bug.md">Report bug</a>
@@ -57,4 +57,4 @@ git subtree push --prefix=dist origin gh-pages
 
 Code and documentation copyright @2018 by marstau and Code released under the [MIT License](https://github.com/marstau/smartcooly.doc/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/marstau/smartcooly.doc/blob/master/docs/LICENSE).
 
-## [Denote](http://smartcooly.marstau.com/docs/1.0/about/denote/)
+## [Denote](http://smartcooly.marstau.com/en/docs/1.0/about/denote/)
