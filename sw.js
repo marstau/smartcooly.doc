@@ -165,7 +165,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "cn/docs/1.0/getting-started/download/index.html",
-    "revision": "126a55b9928a6a5b8f7dc802544d7e5b"
+    "revision": "fc87a50e13c3ea528f16f568026aade9"
   },
   {
     "url": "cn/docs/1.0/getting-started/index.html",
@@ -177,7 +177,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "cn/docs/1.0/getting-started/introduction/index.html",
-    "revision": "686daf11f8c80bafd71f0a22e49120f9"
+    "revision": "8885308465338562d82d78749220aac9"
   },
   {
     "url": "cn/docs/1.0/index.html",
@@ -189,11 +189,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "cn/docs/1.0/support-exchanges/index.html",
-    "revision": "fffcc6ce723c07579b19aa87f617568c"
+    "revision": "08125a1c616310477c4c72ffdda7db70"
   },
   {
     "url": "cn/docs/1.0/usage/index.html",
-    "revision": "341a92eb27c1326bb98c5da91dc82e64"
+    "revision": "89b9bc50e5e2eab1cafccff88958f768"
   },
   {
     "url": "cn/docs/getting-started/index.html",
@@ -277,7 +277,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "en/docs/1.0/getting-started/download/index.html",
-    "revision": "27bc804e09a607a6bad4e0080fd50cde"
+    "revision": "6f87558f869d0c2ef3a54671fb1d2de1"
   },
   {
     "url": "en/docs/1.0/getting-started/index.html",
@@ -289,7 +289,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "en/docs/1.0/getting-started/introduction/index.html",
-    "revision": "1bb503f37b4aad801281cfaf84c7b93a"
+    "revision": "79f53f2105256ed975cd40e7afe85752"
   },
   {
     "url": "en/docs/1.0/index.html",
@@ -301,11 +301,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "en/docs/1.0/support-exchanges/index.html",
-    "revision": "440f4614eb129f029cc4437b35b49bc5"
+    "revision": "47ea74ba218d23590955b821bb909f69"
   },
   {
     "url": "en/docs/1.0/usage/index.html",
-    "revision": "eeb63367341eafefb5153dfe6b971643"
+    "revision": "5136fcc77362bdf671229ad20854cf1d"
   },
   {
     "url": "en/docs/getting-started/index.html",
@@ -321,10 +321,10 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "9482b5a74f3173ce0195dfa62ac06335"
+    "revision": "4cd1db04d21d475d6e969b601e4d3828"
   },
   {
     "url": "redirects.json",
-    "revision": "d68e11eb81f69b15c890475ade9e01d8"
+    "revision": "c1d237f3e5c9dd7d9789ef306747c6f2"
   }
 ])
