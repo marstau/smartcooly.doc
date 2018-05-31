@@ -9,10 +9,10 @@ redirect_from:
   - /docs/1.0/
   - /docs/1.0/getting-started/
   - /docs/getting-started/
-  - /docs/en/
-  - /docs/en/1.0/
-  - /docs/en/1.0/getting-started/
-  - /docs/en/getting-started/
+  - /en/docs/
+  - /en/docs/1.0/
+  - /en/docs/1.0/getting-started/
+  - /en/docs/getting-started/
 toc: true
 ---
 
