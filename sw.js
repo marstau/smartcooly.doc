@@ -273,7 +273,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "en/docs/1.0/api/index.html",
-    "revision": "e105a12e886b23702d960b4568e140e6"
+    "revision": "a0985d737da1939fae25c75a1c3542ff"
   },
   {
     "url": "en/docs/1.0/getting-started/download/index.html",
@@ -285,7 +285,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "en/docs/1.0/getting-started/installation/index.html",
-    "revision": "9e29df2f49c893fd12e726c4a5774872"
+    "revision": "85b0561e4c8a6117a03344a792d23824"
   },
   {
     "url": "en/docs/1.0/getting-started/introduction/index.html",
@@ -301,11 +301,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "en/docs/1.0/support-exchanges/index.html",
-    "revision": "47ea74ba218d23590955b821bb909f69"
+    "revision": "bf995fd8b6a8cc12bbf25ae1a1dcb100"
   },
   {
     "url": "en/docs/1.0/usage/index.html",
-    "revision": "5136fcc77362bdf671229ad20854cf1d"
+    "revision": "0081dc8d67056736dc739333495d28c9"
   },
   {
     "url": "en/docs/getting-started/index.html",

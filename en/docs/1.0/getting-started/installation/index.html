@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="You can install smartcooly from installation package or Docker.">
+<meta name="description" content="The most popular HTML, CSS, and JS library in the world.">
 <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 <meta name="generator" content="Jekyll v3.8.2">
 
@@ -36,13 +36,13 @@
 <meta name="twitter:site" content="@getbootstrap">
 <meta name="twitter:creator" content="@getbootstrap">
 <meta name="twitter:title" content="Installation">
-<meta name="twitter:description" content="You can install smartcooly from installation package or Docker.">
+<meta name="twitter:description" content="The most popular HTML, CSS, and JS library in the world.">
 <meta name="twitter:image" content="https://smartcooly.marstau.com/assets/brand/bootstrap-social-logo.png">
 
 <!-- Facebook -->
 <meta property="og:url" content="https://smartcooly.marstau.com/en/docs/1.0/getting-started/installation/">
 <meta property="og:title" content="Installation">
-<meta property="og:description" content="You can install smartcooly from installation package or Docker.">
+<meta property="og:description" content="The most popular HTML, CSS, and JS library in the world.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="http://smartcooly.marstau.com/assets/brand/bootstrap-social.png">
 <meta property="og:image:secure_url" content="https://smartcooly.marstau.com/assets/brand/bootstrap-social.png">
@@ -187,15 +187,47 @@
         
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
+<li class="toc-entry toc-h3"><a href="#from-installation-package">From installation package</a></li>
+<li class="toc-entry toc-h3"><a href="#from-docker">From Docker</a></li>
 </ul>
           </div>
         
 
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
           <h1 class="bd-title" id="content">Installation</h1>
-          <p class="bd-lead">You can install smartcooly from installation package or Docker.</p>
+          <p class="bd-lead"></p>
           
-          <p>##</p>
+          <p>You can install smartcooly from <strong>installation package</strong> or <strong>Docker</strong>.</p>
+
+<p>The default username and password are <code class="highlighter-rouge">admin</code>, please modify them immediately after login!</p>
+
+<h3 id="from-installation-package">From installation package</h3>
+
+<ol>
+  <li>Download the smartcooly installation package on <a href="https://github.com/marstau/smartcooly/releases">this page</a></li>
+  <li>Unzip the smartcooly installation package</li>
+  <li>Enter the extracted smartcooly installation directory</li>
+  <li>Run <code class="highlighter-rouge">smartcooly</code></li>
+</ol>
+
+<p>Then, smartcooly is running at <code class="highlighter-rouge">http://localhost:9876</code>.</p>
+
+<p><strong>Linux &amp; Mac user quick start command</strong></p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://github.com/marstau/smartcooly/releases/download/v[[VERSION]]/smartcooly_[[OS]]_[[ARCH]].tar.gz
+<span class="nb">tar</span> <span class="nt">-xzvf</span> smartcooly_[[OS]]_[[ARCH]].tar.gz
+<span class="nb">cd </span>smartcooly_[[OS]]_[[ARCH]]
+./smartcooly
+</code></pre></div></div>
+
+<p>Please replace <code class="highlighter-rouge">[[VERSION]]</code>, <code class="highlighter-rouge">[[OS]]</code>, <code class="highlighter-rouge">[[ARCH]]</code> first.</p>
+
+<h3 id="from-docker">From Docker</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">--name</span><span class="o">=</span>smartcooly <span class="nt">-p</span> 19876:9876 marstau/smartcooly
+</code></pre></div></div>
+
+<p>Then, smartcooly is running at <code class="highlighter-rouge">http://localhost:19876</code>.</p>
 
         </main>
       </div>
