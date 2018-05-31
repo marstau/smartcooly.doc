@@ -9,10 +9,10 @@ redirect_from:
   - /docs/1.0/
   - /docs/1.0/getting-started/
   - /docs/getting-started/
-  - /docs/en/
-  - /docs/en/1.0/
-  - /docs/en/1.0/getting-started/
-  - /docs/en/getting-started/
+  - /docs/cn/
+  - /docs/cn/1.0/
+  - /docs/cn/1.0/getting-started/
+  - /docs/cn/getting-started/
 toc: true
 ---
 
@@ -28,10 +28,10 @@ In [https://www.smartcooly.io/](https://www.smartcooly.io/)
 
 ### By downloading compiled binanry
 
-See [Here]({{ site.baseurl }}/docs/{{page.language}}/{{ site.docs_version }}/{{page.language}}/getting-started/download/)
+See [Here]({{ site.baseurl }}/{{page.language}}/docs/{{ site.docs_version }}/{{page.language}}/getting-started/download/)
 
 ### By compiling yourself
 
-See [Here]({{ site.baseurl }}/docs/{{page.language}}/{{ site.docs_version }}/{{page.language}}/getting-started/installation/)
+See [Here]({{ site.baseurl }}/{{page.language}}/docs/{{ site.docs_version }}/{{page.language}}/getting-started/installation/)
 
 

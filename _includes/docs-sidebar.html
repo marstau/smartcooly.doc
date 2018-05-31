@@ -12,14 +12,14 @@
   {%- assign link_slug = link.title | slugify -%}
   {%- assign group_slug = group.title | slugify -%}
   {%- assign active = nil -%}
-  {%- assign language = page.url | slice: 6, 2 -%}
+  {%- assign language = page.url | slice: 1, 2 -%}
 
   {%- if page.group == group_slug -%}
     {%- assign active = 'active' -%}
   {%- endif -%}
 
   <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
-      <a class="bd-toc-link" href="{{ site.baseurl }}/docs/{{language}}/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
+      <a class="bd-toc-link" href="{{ site.baseurl }}/{{language}}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
         {{ group.title }}
       </a>
 
@@ -33,7 +33,7 @@
           {%- endif -%}
 
           <li{% unless active == nil %} class="{{ active }}"{% endunless %}>
-            <a href="{{ site.baseurl }}/docs/{{language}}/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/">
+            <a href="{{ site.baseurl }}/{{language}}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/">
               {{ doc.title }}
             </a>
 
