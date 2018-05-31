@@ -1,7 +1,25 @@
 en:
     Brief: Open Source Automatic Trading Platform for Digital Currency.
     Language: English
+    Official: Official website
+    GetStarted: Get started
+    Download: Download
+    Denote: Denote
+    About: About
+    Home: Home
+    Documentation: Documentation
+    BuiltBy: Designed and built in the world by
+    Currently: Currently
 
 cn:
     Brief: 开源数字货币交易平台.
     Language: 简体中文
+    Official: 官网
+    GetStarted: 新手指南
+    Download: 下载
+    Denote: 捐赠支持
+    About: 关于
+    Home: 首页
+    Documentation: 文档中心
+    BuiltBy: 版权所有
+    Currently: 最新版本

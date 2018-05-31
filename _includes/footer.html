@@ -3,9 +3,9 @@
   <div class="container-fluid p-3 p-md-5">
     <ul class="bd-footer-links">
       <li><a href="{{ site.repo }}">GitHub</a></li>
-      <li><a href="{{ site.baseurl }}/{{language}}/docs/{{ site.docs_version }}/about/overview/">About</a></li>
-      <li><a href="{{ site.baseurl }}/{{language}}/docs/{{ site.docs_version }}/about/denote/">Denote</a></li>
+      <li><a href="{{ site.baseurl }}/{{language}}/docs/{{ site.docs_version }}/about/overview/">{{site.data.localization[language].About}}</a></li>
+      <li><a href="{{ site.baseurl }}/{{language}}/docs/{{ site.docs_version }}/about/denote/">{{site.data.localization[language].Denote}}</a></li>
     </ul>
-    <p>Designed and built in the world by <a href="https://github.com/marstau" target="_blank" rel="noopener">@marstau</a>.</p>
+    <p>{{site.data.localization[language].BuiltBy}} <a href="https://github.com/marstau" target="_blank" rel="noopener">@marstau</a>.</p>
   </div>
 </footer>
