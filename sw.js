@@ -153,19 +153,19 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "cn/docs/1.0/about/denote/index.html",
-    "revision": "a84e2d0240638f71942e63e3d7730022"
+    "revision": "2fae4ef21add7d1e28b68d3ed1f8da61"
   },
   {
     "url": "cn/docs/1.0/about/license/index.html",
-    "revision": "c91df04bceb8535ff291a303657f0ce1"
+    "revision": "2882cd3f81db6d4d6b4f9bc11907e697"
   },
   {
     "url": "cn/docs/1.0/api/index.html",
-    "revision": "1d745579ad9f4a81e0af848fcb562971"
+    "revision": "084611f946d1d95203e58e8245db4a36"
   },
   {
     "url": "cn/docs/1.0/getting-started/download/index.html",
-    "revision": "17d07fc05ea027684f1130eae3b6817c"
+    "revision": "126a55b9928a6a5b8f7dc802544d7e5b"
   },
   {
     "url": "cn/docs/1.0/getting-started/index.html",
@@ -173,11 +173,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "cn/docs/1.0/getting-started/installation/index.html",
-    "revision": "1ffb5006650c678a470698c4b7c4c2aa"
+    "revision": "ac6bc68a06b1a0779ebe0f3ee1ed0a27"
   },
   {
     "url": "cn/docs/1.0/getting-started/introduction/index.html",
-    "revision": "af3b7896a7b0d165ed9deae1d21172a4"
+    "revision": "686daf11f8c80bafd71f0a22e49120f9"
   },
   {
     "url": "cn/docs/1.0/index.html",
@@ -185,15 +185,15 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "cn/docs/1.0/references/cryptocurrency-exchange-markets/index.html",
-    "revision": "7beade46c48e8eaee295b74a84db7a0c"
+    "revision": "73786ea316e02ce72f6d5377c5358883"
   },
   {
     "url": "cn/docs/1.0/support-exchanges/index.html",
-    "revision": "54f1bd0a1f9e0142f55a25085ec7b94f"
+    "revision": "fffcc6ce723c07579b19aa87f617568c"
   },
   {
     "url": "cn/docs/1.0/usage/index.html",
-    "revision": "11746af60d8a7b50c27a4f23240af7a1"
+    "revision": "341a92eb27c1326bb98c5da91dc82e64"
   },
   {
     "url": "cn/docs/getting-started/index.html",
@@ -205,7 +205,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "cn/index.html",
-    "revision": "c1abb67a9846c329a0daba5f30a743dd"
+    "revision": "f387132652091b87c5fda5b41a12ba89"
   },
   {
     "url": "dist/css/bootstrap-grid.css",
