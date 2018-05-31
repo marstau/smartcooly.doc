@@ -152,6 +152,62 @@ workbox.precaching.precacheAndRoute([
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
+    "url": "cn/docs/1.0/about/denote/index.html",
+    "revision": "a84e2d0240638f71942e63e3d7730022"
+  },
+  {
+    "url": "cn/docs/1.0/about/license/index.html",
+    "revision": "c91df04bceb8535ff291a303657f0ce1"
+  },
+  {
+    "url": "cn/docs/1.0/api/index.html",
+    "revision": "1d745579ad9f4a81e0af848fcb562971"
+  },
+  {
+    "url": "cn/docs/1.0/getting-started/download/index.html",
+    "revision": "17d07fc05ea027684f1130eae3b6817c"
+  },
+  {
+    "url": "cn/docs/1.0/getting-started/index.html",
+    "revision": "d58e8fe75ca9bc1a042edfb482ff5c2d"
+  },
+  {
+    "url": "cn/docs/1.0/getting-started/installation/index.html",
+    "revision": "1ffb5006650c678a470698c4b7c4c2aa"
+  },
+  {
+    "url": "cn/docs/1.0/getting-started/introduction/index.html",
+    "revision": "af3b7896a7b0d165ed9deae1d21172a4"
+  },
+  {
+    "url": "cn/docs/1.0/index.html",
+    "revision": "d58e8fe75ca9bc1a042edfb482ff5c2d"
+  },
+  {
+    "url": "cn/docs/1.0/references/cryptocurrency-exchange-markets/index.html",
+    "revision": "7beade46c48e8eaee295b74a84db7a0c"
+  },
+  {
+    "url": "cn/docs/1.0/support-exchanges/index.html",
+    "revision": "54f1bd0a1f9e0142f55a25085ec7b94f"
+  },
+  {
+    "url": "cn/docs/1.0/usage/index.html",
+    "revision": "11746af60d8a7b50c27a4f23240af7a1"
+  },
+  {
+    "url": "cn/docs/getting-started/index.html",
+    "revision": "d58e8fe75ca9bc1a042edfb482ff5c2d"
+  },
+  {
+    "url": "cn/docs/index.html",
+    "revision": "d58e8fe75ca9bc1a042edfb482ff5c2d"
+  },
+  {
+    "url": "cn/index.html",
+    "revision": "17e67bb8232ec872a1b9ff36268b68c3"
+  },
+  {
     "url": "dist/css/bootstrap-grid.css",
     "revision": "f76041345b421f7aadb49573367749f8"
   },
@@ -192,67 +248,83 @@ workbox.precaching.precacheAndRoute([
     "revision": "31521e0273e5f154fb436d77ca56c9a3"
   },
   {
-    "url": "docs/1.0/about/denote/index.html",
-    "revision": "1d7a68af7b3f57e758403be79c866ac2"
-  },
-  {
-    "url": "docs/1.0/about/license/index.html",
-    "revision": "ffd331eaf988b17df731f236d325e61a"
-  },
-  {
-    "url": "docs/1.0/api-zh-cn/index.html",
-    "revision": "7bd5c704a2fe9a1d50d29d23a42976fc"
-  },
-  {
-    "url": "docs/1.0/api/index.html",
-    "revision": "38116ba56650abae30490631e1ca895a"
-  },
-  {
-    "url": "docs/1.0/getting-started/download/index.html",
-    "revision": "1b734d548f3dc30f2b5626de7fa76ef1"
-  },
-  {
     "url": "docs/1.0/getting-started/index.html",
-    "revision": "d404a0805c36ff62272a057acccd96e0"
-  },
-  {
-    "url": "docs/1.0/getting-started/installation/index.html",
-    "revision": "e2a9bfd1179ca5b1f7bd62ee4c564348"
-  },
-  {
-    "url": "docs/1.0/getting-started/introduction/index.html",
-    "revision": "b2567baf0ec7b3ed7c6e8634179e1e61"
+    "revision": "d58e8fe75ca9bc1a042edfb482ff5c2d"
   },
   {
     "url": "docs/1.0/index.html",
-    "revision": "d404a0805c36ff62272a057acccd96e0"
-  },
-  {
-    "url": "docs/1.0/references/cryptocurrency-exchange-markets/index.html",
-    "revision": "0e382111853c28ca307a57fa2c981253"
-  },
-  {
-    "url": "docs/1.0/support-exchanges/index.html",
-    "revision": "f6893075cc5b16c7656c4329c60a818c"
-  },
-  {
-    "url": "docs/1.0/usage/index.html",
-    "revision": "7571b5fec808a9799061fee9be6b704a"
+    "revision": "d58e8fe75ca9bc1a042edfb482ff5c2d"
   },
   {
     "url": "docs/getting-started/index.html",
-    "revision": "d404a0805c36ff62272a057acccd96e0"
+    "revision": "d58e8fe75ca9bc1a042edfb482ff5c2d"
   },
   {
     "url": "docs/index.html",
-    "revision": "d404a0805c36ff62272a057acccd96e0"
+    "revision": "d58e8fe75ca9bc1a042edfb482ff5c2d"
+  },
+  {
+    "url": "en/docs/1.0/about/denote/index.html",
+    "revision": "75a0052a499630f05966efefc5b34f99"
+  },
+  {
+    "url": "en/docs/1.0/about/license/index.html",
+    "revision": "3a5de367d001febc5bb5eae1f24558bb"
+  },
+  {
+    "url": "en/docs/1.0/api/index.html",
+    "revision": "e105a12e886b23702d960b4568e140e6"
+  },
+  {
+    "url": "en/docs/1.0/getting-started/download/index.html",
+    "revision": "27bc804e09a607a6bad4e0080fd50cde"
+  },
+  {
+    "url": "en/docs/1.0/getting-started/index.html",
+    "revision": "fd5a1e63a182284c084731286df4f12b"
+  },
+  {
+    "url": "en/docs/1.0/getting-started/installation/index.html",
+    "revision": "9e29df2f49c893fd12e726c4a5774872"
+  },
+  {
+    "url": "en/docs/1.0/getting-started/introduction/index.html",
+    "revision": "1bb503f37b4aad801281cfaf84c7b93a"
+  },
+  {
+    "url": "en/docs/1.0/index.html",
+    "revision": "fd5a1e63a182284c084731286df4f12b"
+  },
+  {
+    "url": "en/docs/1.0/references/cryptocurrency-exchange-markets/index.html",
+    "revision": "0b13db15b20be353e172c6aac23219e6"
+  },
+  {
+    "url": "en/docs/1.0/support-exchanges/index.html",
+    "revision": "440f4614eb129f029cc4437b35b49bc5"
+  },
+  {
+    "url": "en/docs/1.0/usage/index.html",
+    "revision": "eeb63367341eafefb5153dfe6b971643"
+  },
+  {
+    "url": "en/docs/getting-started/index.html",
+    "revision": "fd5a1e63a182284c084731286df4f12b"
+  },
+  {
+    "url": "en/docs/index.html",
+    "revision": "fd5a1e63a182284c084731286df4f12b"
+  },
+  {
+    "url": "en/index.html",
+    "revision": "bec7398f472109f8488bb0d8fdd77961"
   },
   {
     "url": "index.html",
-    "revision": "8612a01ff7903b14d0010293001f73e3"
+    "revision": "9482b5a74f3173ce0195dfa62ac06335"
   },
   {
     "url": "redirects.json",
-    "revision": "936ef206f34fd04c32434c3b44f73e6b"
+    "revision": "d68e11eb81f69b15c890475ade9e01d8"
   }
 ])
