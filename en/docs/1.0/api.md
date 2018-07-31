@@ -113,6 +113,16 @@ G.Log( e.Exchange, e.NetAsset, e.Asset );
 
 `Global`/`G` is a object with some global methods.
 
+#### SendEmail
+
+> G.SendEmail(Message: *Any*) => *No Return*
+
+```javascript
+
+G.SendEmail("account@gmail.com", "msg1", "msg2");
+```
+
+
 ### Sleep
 
 > G.Sleep(Interval: *Any*) => *No Return*
